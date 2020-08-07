@@ -1,0 +1,58 @@
+.table th {
+  background: #4dcbdb;
+}
+
+.label {
+  padding: 3px 10px;
+  color: white;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.label-success {
+  background: #55c94b;
+}
+
+.label-danger {
+  background: #ed856d;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.custom-drop-down {
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .dropdown-menu {
+    min-width: 12rem;
+  }
+  .custom-select {
+    background: #ffffff;
+    padding: 0.375rem 0.75rem;
+  }
+  .dropdown-menu.show {
+    padding: 10px;
+  }
+}
+
+#toast-style {
+  min-width: 250px;
+  margin-left: -125px;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+.show-toast {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 4.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
